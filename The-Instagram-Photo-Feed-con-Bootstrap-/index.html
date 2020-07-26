@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <!-- navbar  ----------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="container-fluid sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-nav offset-md-1">
+                <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-camera" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M15 12V6a1 1 0 0 0-1-1h-1.172a3 3 0 0 1-2.12-.879l-.83-.828A1 1 0 0 0 9.173 3H6.828a1 1 0 0 0-.707.293l-.828.828A3 3 0 0 1 3.172 5H2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
+                    <path fill-rule="evenodd"
+                        d="M8 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                    <path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+                </svg>
+                <a class="navbar-brand pl-1" href="#">Instagram</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offset-md-7 collapse navbar-collapse" id="navbarSupportedContent">
+                <button type="button" class="btn btn-success my-2 my-sm-0 btn-lg" data-toggle="modal"
+                data-target="#staticBackdrop">
+                    Create a new post
+                </button>
+                <!----------- modal create a new post ----------------------------------------------------------------------------------------------------->
+                <div class="modal fade" id="staticBackdrop" data-keyboard="false" tabindex="-1" role="dialog" 
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+                                <br>
+                                <a class="btn btn-outline-dark" href="#" role="button"><svg width="1.5em" height="1.5em"
+                                        viewBox="0 0 16 16" class="bi bi-camera-fill" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                        <path fill-rule="evenodd"
+                                            d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z" />
+                                    </svg></a>
+                                <a class="btn btn-outline-dark" href="#" role="button"><svg width="1.5em" height="1.5em"
+                                        viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg></a>
+                                <br>
+                                <br>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-success">Publish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- dropdown nav  ----------------------------------------------------------------------------------------------------->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-gear-fill"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 0 0-5.86 2.929 2.929 0 0 0 0 5.858z" />
+                            </svg>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- nav  -------------------------------------------------------------------------------------------------------------->
+    <div class="container-fluid">
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                    aria-controls="pills-home" aria-selected="true"><svg width="1em" height="0.9em" viewBox="0 0 16 16"
+                        class="bi bi-grid-3x3-gap-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z" />
+                    </svg></a>
+            </li>
+            <li class="nav-item   btn-light" role="presentation">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                    aria-controls="pills-profile" aria-selected="false"><svg width="1em" height="1em"
+                        viewBox="0 0 16 16" class="bi bi-square-fill" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" />
+                    </svg></a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <!-- article  -------------------------------------------------------------------------------------------------------------->
+                <div class="container-fluid">
+                    <div class="row m-1">
+                        <div class="col-4 ">
+                            <a href="#2">
+                                <img class="img-pills"
+                                    src="https://www.euroresidentes.com/hogar/mascotas/wp-content/uploads/sites/5/2014/05/boo.jpg"
+                                    class="img-fluid">>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a href="#2"><img class="img-pills"
+                                    src="https://www.euroresidentes.com/hogar/mascotas/wp-content/uploads/sites/5/2014/05/beast.jpg"
+                                    class="img-fluid"></a>
+                        </div>
+                        <div class="col-4">
+                            <a href="#3"><img class="img-pills"
+                                    src="https://www.euroresidentes.com/hogar/mascotas/wp-content/uploads/sites/5/2014/05/marutaro.jpg"
+                                    class="img-fluid"></a>
+                        </div>
+                    </div>
+
+                    <div class="row m-1">
+                        <div class="col-4">
+                            <a href="#4"><img class="img-pills"
+                                    src="https://www.euroresidentes.com/hogar/mascotas/wp-content/uploads/sites/5/2014/05/shunsuke.jpg"
+                                    class="img-fluid"></a>
+                        </div>
+                        <div class="col-4">
+                            <a href="#5"><img class="img-pills"
+                                    src="https://www.euroresidentes.com/hogar/mascotas/wp-content/uploads/sites/5/2014/05/trotter.jpg"
+                                    class="img-fluid"></a>
+                        </div>
+                        <div class="col-4">
+                            <a href="#6"><img class="img-pills"
+                                    src="https://www.euroresidentes.com/hogar/mascotas/wp-content/uploads/sites/5/2014/05/bellaymrpickles.jpg"
+                                    class="img-fluid"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <!-- pagina feed -------------------------------------------------------------------------------------------------------->
+                <div class=" container-master container-fluid ">
+                    <div id="1" class="container col-12">
+                        <div class="container__title">
+                            <h3>My first Dog</h3>
+                            <p>12/14</p>
+                        </div>
+                        <div class="container__imag">
+                            <img id="primera"
+                                src="https://www.euroresidentes.com/hogar/mascotas/wp-content/uploads/sites/5/2014/05/boo.jpg"
+                                alt="">
+                        </div>
+                        <div class="container__desciption">
+                            <p>Este perrito de corte de pelo peculiar es un Pomerania muy adorable. ¡Mucha gente duda de
+                                si es real!
+                            </p>
+                        </div>
+                    </div>
+                    <div id="2" class="container">
+                        <div class="container__title">
+                            <h3>The Best</h3>
+                            <p>12/14</p>
+                        </div>
+                        <div class="container__imag">
+                            <img src="https://www.euroresidentes.com/hogar/mascotas/wp-content/uploads/sites/5/2014/05/beast.jpg"
+                                alt="">
+                        </div>
+                        <div class="container__desciption">
+                            <p>Este perrito blanquito es una hermosura, es un Perro Pastor Húngaro (Puli). ¡Rebosa de
+                                simpatía!
+                                Cuando tiene el pelo largo se le forman rastas y su pelo recuerda al de los mochos
+                                blancos, es una
+                                dulzura.</p>
+                        </div>
+                    </div>
+                    <div id="3" class="container">
+                        <div class="container__title">
+                            <h3>Manutaro</h3>
+                            <p>12/14</p>
+                        </div>
+                        <div class="container__imag">
+                            <img src="https://www.euroresidentes.com/hogar/mascotas/wp-content/uploads/sites/5/2014/05/marutaro.jpg"
+                                alt="">
+                        </div>
+                        <div class="container__desciption">
+                            <p>Este perrito Shiba-Inu es encantador, ¡cuando cierra los ojitos recuerda a un dibujo
+                                anime! Y se le
+                                ve súper simpático, cariñoso y agradable</p>
+                        </div>
+                    </div>
+                    <div id="4" class="container">
+                        <div class="container__title">
+                            <h3>My Japon shunsuke</h3>
+                            <p>12/14</p>
+                        </div>
+                        <div class="container__imag">
+                            <img src="https://www.euroresidentes.com/hogar/mascotas/wp-content/uploads/sites/5/2014/05/shunsuke.jpg"
+                                alt="">
+                        </div>
+                        <div class="container__desciption">
+                            <p>Este perro es una completa ricura de Pomerania que enamora con solo verlo y ha salido en
+                                televisión
+                                lo que le ha hecho más famoso todavía. ¡Qué dulce es!
+                            </p>
+                        </div>
+                    </div>
+                    <div id="5" class="container">
+                        <div class="container__title">
+                            <h3>My little Trotter</h3>
+                            <p>12/14</p>
+                        </div>
+                        <div class="container__imag">
+                            <img src="https://www.euroresidentes.com/hogar/mascotas/wp-content/uploads/sites/5/2014/05/trotter.jpg"
+                                alt="">
+                        </div>
+                        <div class="container__desciption">
+                            <p>Esta perrita Bulldog Francés tan graciosa y simpática es una completa estrella. ¡Tiene
+                                modelitos de
+                                todo tipo y para todos los gustos!
+                            </p>
+                        </div>
+                    </div>
+                    <div id="6" class="container">
+                        <div class="container__title">
+                            <h3>Bella y Mr Pickles</h3>
+                            <p>12/14</p>
+                        </div>
+                        <div class="container__imag">
+                            <img src="https://www.euroresidentes.com/hogar/mascotas/wp-content/uploads/sites/5/2014/05/bellaymrpickles.jpg"
+                                alt="">
+                        </div>
+                        <div class="container__desciption">
+                            <p>Estos adorables Carlinos son muy simpáticos, fotogénicos y adorados. ¡Hace gracia verlos
+                                a los dos
+                                con esas caritas! Son muy graciosos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fin--------------------------------------------------------------------------------------------------------------------- -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
