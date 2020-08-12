@@ -1,0 +1,9 @@
+
+
+.seconds{
+    padding: 10px;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    display: inline;
+}
