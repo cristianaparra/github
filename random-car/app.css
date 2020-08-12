@@ -1,0 +1,48 @@
+* {
+padding: 0;
+border: 0;
+background-color: green;
+font-size: 100px;
+}
+
+body{
+    display: flex;
+    justify-content: center; 
+    
+}
+
+.card{
+    background-color: white;
+    width: 500px;
+    height: 800px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.icon {
+    background: rgba(0,0,0,0);
+    padding: 30px;
+    display: flex;
+}
+.number{
+    background: rgba(0,0,0,0);
+    font-size: 200px;
+    display: flex;
+    align-self: center;
+}
+
+.icon2{
+    background: rgba(0,0,0,0);
+    padding: 30px;
+    display: flex;
+    align-self: flex-end;
+}
+
+
+
+.red{
+    color: red;
+}
