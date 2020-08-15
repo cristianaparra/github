@@ -35,7 +35,7 @@ setInterval(() => {
   const two = Math.floor(counter / 10);
   const one = Math.floor(counter / 1);
   counter++
-  // console.log(four, three, two, one)
+
 
   ReactDOM.render(
     <SecondsCounter digitOne={one}
